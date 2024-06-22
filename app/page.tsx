@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Skills from "./components/skills";
 import Intro from './components/intro';
 import Navbar from "./components/nav";

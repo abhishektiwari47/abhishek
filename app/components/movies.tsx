@@ -1,6 +1,4 @@
-// Movies.js
 
-import React from 'react';
 
 const Movies = () => {
   const movieData = [
@@ -9,6 +7,8 @@ const Movies = () => {
     { name: 'Parasite', trailerLink: 'https://www.youtube.com/embed/SWSDQfJQhUg' },
     { name: 'Oldboy', trailerLink: 'https://www.youtube.com/embed/tAaBkFChaRg' },
     { name: 'Pather Panchali', trailerLink: 'https://www.youtube.com/embed/f2B7dpPFuiY' },
+    
+    { name: 'Pather Panchali', trailerLink: 'https://www.youtube.com/embed/r0synl-lI4I' },
     
   ];
 
