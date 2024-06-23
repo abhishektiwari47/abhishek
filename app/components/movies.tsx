@@ -14,7 +14,7 @@ const Movies = () => {
 
   return (
     <div className="border-2 border-gradient p-4 rounded-lg shadow-md m-9">
-      <h1 className="text-xl font-bold mb-4">Movies I Love</h1>
+      <h1 className="text-xl font-bold mb-4">The Masterpieces</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {movieData.map((movie, index) => (
          <div key={index} className="bg-gray-700 p-4 rounded-lg shadow-md hover:scale-105 transition-transform duration-500 ease-in-out transform hover:bg-gradient">

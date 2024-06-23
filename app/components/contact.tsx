@@ -13,7 +13,7 @@ const Contacts = () => {
 
   return (
     <div className="bg-white p-4 rounded-lg shadow-md m-9">
-      <div className="text-xl font-bold mb-2 text-cyan-950">Contact Me</div>
+      <div className="text-xl font-bold mb-2 text-cyan-950">Let's watch together</div>
       <div className="flex flex-wrap">
         {skillData.map((contact, index) => (
           <Contact key={index} link={contact.link} alt={contact.alt} src={contact.src} />

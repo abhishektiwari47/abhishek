@@ -21,7 +21,7 @@ const Skills = () => {
 
   return (
     <div className="bg-white p-4 rounded-lg shadow-md m-9">
-      <div className="text-xl font-bold mb-2 text-cyan-950">Technical Skills</div>
+      <div className="text-xl font-bold mb-2 text-cyan-950">The Tools</div>
       <div className="flex flex-wrap ">
         {skillData.map((skill, index) => (
           <Skill key={index} alt={skill.alt} src={skill.src} />
